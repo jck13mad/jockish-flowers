@@ -18,7 +18,6 @@ function Home(){
             trigger: "#second",
             start: "-150px 80%",
             end: "-10% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -31,7 +30,6 @@ function Home(){
             trigger: "#third",
             start: "-150px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -44,7 +42,6 @@ function Home(){
             trigger: "#fourth",
             start: "-300px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -57,7 +54,6 @@ function Home(){
             trigger: "#fifth",
             start: "-300px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -69,7 +65,6 @@ function Home(){
             trigger: "#sixth",
             start: "-300px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -82,7 +77,6 @@ function Home(){
             trigger: "#seventh",
             start: "-150px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -95,7 +89,6 @@ function Home(){
             trigger: "#eighth",
             start: "-150px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -108,7 +101,6 @@ function Home(){
             trigger: "#ninth",
             start: "-400px 80%",
             end: "-80% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -121,7 +113,6 @@ function Home(){
             trigger: "#tenth",
             start: "-150px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -134,7 +125,6 @@ function Home(){
             trigger: "#eleventh",
             start: "-150px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -147,7 +137,6 @@ function Home(){
             trigger: "#twelfth",
             start: "-150px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -160,7 +149,6 @@ function Home(){
             trigger: "#thirteenth",
             start: "-150px 80%",
             end: "-40% 30%",
-            markers: true,
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -290,19 +278,21 @@ function Home(){
                 <div className="border-white relative border-2 h-1 w-40"></div>
             </section> 
 
-            <section id="fourteenth" className="relative top-[250vh]">
+            <footer id="fourteenth" className="relative top-[250vh]">
                 <div className="border-2 border-white absolute right-0 bottom-0 h-[80vh] w-[55vw]"></div>
                 <div className="pl-[6vw] bottom-[40vh] relative">
                     <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Ask Us Anything</h1><br></br>
                     <h3 className="font-normal text-[1.8vw] text-white leading-tight w-[40vw]">Our team of floral advisors are ready to help. They will advise you on the variety of flowers & foliage, type, size, shape, colour, texture, and price, to find the floral options that best suit your style & vision.</h3>
-                    <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Give Us A Call</h3>
+                    <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
+                        <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Give Us A Call</h3>
+                    </div>
                 </div>
                 <div className="flex flex-row pl-[6vw] items-center space-x-[2vw]">
                     <h3 className="font-normal text-[2vw] text-white leading-tight">317-784-1614</h3>
                     <div className="rounded-full relative h-[2vh] w-[1vw] bg-white"></div>
                     <h3 className="font-normal text-[2vw] text-white leading-tight w-[50vw]">2636 East St Indianapolis, IN 46225</h3>
                 </div>
-            </section>
+            </footer>
         </div>
     )
 }
