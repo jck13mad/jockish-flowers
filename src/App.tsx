@@ -7,12 +7,16 @@ import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/hello" element={<UserComponent name='Jack' age={26} address='1390 Adams St' dob={new Date()}/>}></Route>
-     </Routes>
+    <div className=''>
+      <div className='sticky top-0 z-50'>
+        <Navbar />
+      </div>
+      <div className='z-1'>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/hello" element={<UserComponent name='Jack' age={26} address='1390 Adams St' dob={new Date()}/>}></Route>
+      </Routes>
+     </div> 
     </div>
   );
 }
