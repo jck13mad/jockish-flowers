@@ -1,5 +1,4 @@
 import * as React from "react";
-import sun from "../../pics/sun-white.png";
 import lotus from '../../pics/white-lotus-3.png'
 
 function Navbar(){
@@ -10,9 +9,9 @@ function Navbar(){
                 {/*logo*/}
                 <div className="flex flex-col w-auto h-auto top-10 relative">
                     {/** Jockish Flowers */}
-                    <a href="#"><span className="self-center whitespace-nowrap dark:text-white text-white font-thin text-4xl md:text-[3.75vw]">Jockish Flowers</span></a>
+                    <a href="/"><span className="self-center whitespace-nowrap dark:text-white text-white font-thin text-4xl md:text-[3.75vw]">Jockish Flowers</span></a>
                     {/** Lotus */}
-                    <a href="#" className="w-10 h-7 self-center"><img alt="white lotus" src={lotus} /></a>
+                    <a href="/" className="w-10 h-7 self-center"><img alt="white lotus" src={lotus} /></a>
                 </div>
 
                 {/*mobile menu button*/}
@@ -28,26 +27,26 @@ function Navbar(){
 
                         {/*About Us*/}
                         <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0 3xs:backdrop-blur-sm sm:blur-none group flex flex-col relative">
-                            <a href="#" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white  hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">About Us</a>
-                            <a href="#" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-out duration-700"><img className="invisible w-7 h-5 self-center md:group-hover:visible" alt="white lotus" src={lotus} /></a>
+                            <a href="/about" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white  hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">About Us</a>
+                            <a href="/about" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-out duration-700"><img className="invisible w-7 h-5 self-center md:group-hover:visible" alt="white lotus" src={lotus} /></a>
                         </li>
 
                         {/*Services*/}
                         <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0 3xs:backdrop-blur-sm sm:blur-none group flex flex-col relative">
-                            <a href="#" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">Services</a>
-                            <a href="#" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img alt="white lotus" src={lotus} /></a>
+                            <a href="/shop" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">Services</a>
+                            <a href="/shop" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img alt="white lotus" src={lotus} /></a>
                         </li>
 
                         {/*Contact Us*/}
                         <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0 3xs:backdrop-blur-sm sm:blur-none group flex flex-col relative">
-                            <a href="#" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-medium self-center">Contact Us</a>
-                            <a href="#" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img alt="white lotus" src={lotus} /></a>
+                            <a href="/contact" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-medium self-center">Contact Us</a>
+                            <a href="/contact" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img alt="white lotus" src={lotus} /></a>
                         </li>
 
                         {/*image for light/dark*/}
-                        <li className="invisible md:visible">
+                        {/*<li className="invisible md:visible">
                             <a href='#'><img className="w-8 h-8" alt="light mode" src={sun} /></a>
-                        </li>
+                        </li>*/}
                     </ul>
                 </div>
             </div>

@@ -175,16 +175,17 @@ function Home(){
                 <div className="w-[24vw] h-32 relative">
                     <h3 className="font-normal text-[1.3vw] text-white leading-tight text-center">Access our extraordinary collection of flowers, with step-by-step guidance at every stage. <br></br><br></br>Explore flowers that transform your creative design into a <b>floral masterpiece.</b></h3>
                 </div>
-                <div className="top-20 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
-                    <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
-                </div>
+                <a href="/shop">
+                    <div className="top-20 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
+                      <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
+                    </div>
+                </a>
             </section>
 
-            <section id="third" className="pl-[6vw] relative w-full h-[20vh] flex flex-row items-center space-x-[6vw] justify-center top-[2vh]">
+            <section id="third" className=" relative w-full h-[20vh] flex flex-row items-center space-x-[6vw] justify-center top-[2vh]">
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 <img src={divider} alt="flower icon" className="relative h-28 w-auto"/>
                 <div className="border-white relative border-2 h-1 w-40"></div>
-                <div></div>
             </section> 
 
             <section id="fourth" className="relative w-full h-[30vh] top-[8vh] flex flex-col items-center">
@@ -203,9 +204,11 @@ function Home(){
             <section id="sixth" className="top-[15vh] relative flex flex-col items-center">
                 <h3 className="font-normal text-[1.3vw] text-white leading-tight text-center">An endless variety of flowers & foliage.</h3><br></br><br></br>
                 <h3 className="font-normal text-[1.3vw] text-white leading-tight text-center w-[30vw]">‍Choose an assortment for your event, or pick a single stem and witness the beauty of a venue or dinner table come alive.</h3>
-                <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
-                    <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
-                </div>
+                <a href="/shop">
+                    <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
+                        <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
+                    </div>
+                </a>
             </section>
 
             <section id="seventh" className="pl-[6vw] relative w-full h-[20vh] flex flex-row items-center space-x-[6vw] justify-center top-[25vh]">
@@ -221,7 +224,7 @@ function Home(){
             </section>
 
             <section id="ninth" className="pl-[14vw] relative top-[58vh] group">
-                <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">ARRANGEMENTS</h1>
+                <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Arrangements</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 {/**Image placement holder */}
                 <div className="relative flex flex-row top-[5vh] opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-700">
@@ -260,7 +263,7 @@ function Home(){
             </section>
 
             <section id="twelfth" className="pl-[14vw] relative top-[140vh] group">
-                <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Afghan</h1>
+                <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Afghans</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 {/**Image placement holder */}
                 <div className="relative flex flex-row top-[5vh] opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-700">
@@ -283,9 +286,11 @@ function Home(){
                 <div className="pl-[6vw] bottom-[40vh] relative">
                     <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Ask Us Anything</h1><br></br>
                     <h3 className="font-normal text-[1.8vw] text-white leading-tight w-[40vw]">Our team of floral advisors are ready to help. They will advise you on the variety of flowers & foliage, type, size, shape, colour, texture, and price, to find the floral options that best suit your style & vision.</h3>
-                    <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
-                        <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Give Us A Call</h3>
-                    </div>
+                    <a href="/contact">
+                        <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
+                            <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Give Us A Call</h3>
+                        </div>
+                    </a>
                 </div>
                 <div className="flex flex-row pl-[6vw] items-center space-x-[2vw]">
                     <h3 className="font-normal text-[2vw] text-white leading-tight">317-784-1614</h3>
