@@ -5,7 +5,6 @@ import Home from './components/home/Home';
 import UserComponent from './components/UserComponent';
 import Navbar from './components/navbar/Navbar';
 import About from './components/about/About'
-import Contact from './components/contact/Contact';
 import Shop from './components/shop/Shop';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/hello" element={<UserComponent name='Jack' age={26} address='1390 Adams St' dob={new Date()}/>}></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
           <Route path="/shop" element={<Shop />}></Route>
         </Routes>
      </div> 

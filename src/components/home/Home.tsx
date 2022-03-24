@@ -177,7 +177,7 @@ function Home(){
                 </div>
                 <a href="/shop">
                     <div className="top-20 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
-                      <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
+                      <h3 className="text-[#0c331f] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
                     </div>
                 </a>
             </section>
@@ -206,7 +206,7 @@ function Home(){
                 <h3 className="font-normal text-[1.3vw] text-white leading-tight text-center w-[30vw]">‍Choose an assortment for your event, or pick a single stem and witness the beauty of a venue or dinner table come alive.</h3>
                 <a href="/shop">
                     <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
-                        <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
+                        <h3 className="text-[#0c331f] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
                     </div>
                 </a>
             </section>
@@ -223,6 +223,7 @@ function Home(){
                 <h3 className="font-normal text-[1.3vw] text-white leading-tight w-[50vw]">We’ve got you covered. The necessary ingredients you will need for your perfect wedding, event, or moment in time have arrived.</h3>
             </section>
 
+            {/**Arrangements */}
             <section id="ninth" className="pl-[14vw] relative top-[58vh] group">
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Arrangements</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
@@ -236,6 +237,7 @@ function Home(){
                 </div>
             </section>
 
+            {/**Stonework */}
             <section id="tenth" className="pl-[14vw] relative top-[80vh] group">
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Stonework</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
@@ -249,6 +251,7 @@ function Home(){
                 </div>
             </section>
 
+            {/**Accents */}
             <section id="eleventh" className="pl-[14vw] relative top-[110vh] group">
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Accents</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
@@ -262,6 +265,7 @@ function Home(){
                 </div>
             </section>
 
+            {/**Afghans */}
             <section id="twelfth" className="pl-[14vw] relative top-[140vh] group">
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Afghans</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
@@ -275,7 +279,7 @@ function Home(){
                 </div>
             </section>
 
-            <section id="thirteenth" className="pl-[6vw] relative w-full h-[20vh] flex flex-row items-center space-x-[6vw] justify-center top-[160vh]">
+            <section id="thirteenth" className="relative w-full h-[20vh] flex flex-row items-center space-x-[6vw] justify-center top-[160vh]">
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 <img src={divider} alt="flower icon" className="relative h-28 w-auto"/>
                 <div className="border-white relative border-2 h-1 w-40"></div>
@@ -288,7 +292,7 @@ function Home(){
                     <h3 className="font-normal text-[1.8vw] text-white leading-tight w-[40vw]">Our team of floral advisors are ready to help. They will advise you on the variety of flowers & foliage, type, size, shape, colour, texture, and price, to find the floral options that best suit your style & vision.</h3>
                     <a href="/contact">
                         <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
-                            <h3 className="text-[#112C03] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Give Us A Call</h3>
+                            <h3 className="text-[#0c331f] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Give Us A Call</h3>
                         </div>
                     </a>
                 </div>
