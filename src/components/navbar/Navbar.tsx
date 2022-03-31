@@ -4,7 +4,7 @@ import flower from '../../pics/flower.png'
 
 function Navbar(){
     return(
-         <nav className="px-2 sm:px-4 py-2.5 rounded backdrop-blur bg-[#0c331f]/[.7] w-screen h-32">
+         <nav className="px-2 sm:px-4 py-2.5 rounded backdrop-blur bg-[#0c331f]/[.7] w-screen h-36">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
 
                 {/*logo*/}
@@ -23,25 +23,25 @@ function Navbar(){
                 </button>
 
                 {/*nav links and expanded mobile menu*/}
-                <div className="hidden w-full place-items-end md:block md:w-auto relative top-7" id="mobile-menu">
-                    <ul className="flex flex-col mt-4 md:flex-row md:space-x-[6vw] md:mt-0 md:text-base md:font-medium">
+                <div className="hidden w-fit rounded-lg place-items-end md:block md:w-fit relative 3xs:top[8.6vh] sm:top-[5vh]" id="mobile-menu">
+                    <ul className="flex flex-col mt-4 md:flex-row md:space-x-[6vw] md:mt-0 md:text-base md:font-medium sm/md:bg-white/0 3xs:bg-[#0c331f]/[.7] 3xs:backdrop-blur-sm sm/md:backdrop-blur-none">
 
                         {/*About Us*/}
-                        <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0 3xs:backdrop-blur-sm sm:blur-none group flex flex-col relative">
+                        <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0  group flex flex-col relative">
                             <a href="/about" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white  hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">About Us</a>
                             <a href="/about" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img className="-rotate-45" alt="flower" src={flower} /></a>
                         </li>
 
                         {/*Services*/}
-                        <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0 3xs:backdrop-blur-sm sm:blur-none group flex flex-col relative">
+                        <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0  group flex flex-col relative">
                             <a href="/shop" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">Services</a>
                             <a href="/shop" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img className="-rotate-45" alt="flower" src={flower} /></a>
                         </li>
 
                         {/*Contact Us*/}
-                        <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0 3xs:backdrop-blur-sm sm:blur-none group flex flex-col relative">
-                            <a href="/#fourteenth" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-medium self-center">Contact Us</a>
-                            <a href="/#fourteenth" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img className="-rotate-45" alt="flower" src={flower} /></a>
+                        <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0  group flex flex-col relative">
+                            <a href="/#contact" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-medium self-center">Contact Us</a>
+                            <a href="/#contact" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img className="-rotate-45" alt="flower" src={flower} /></a>
                         </li>
 
                         {/*image for light/dark*/}

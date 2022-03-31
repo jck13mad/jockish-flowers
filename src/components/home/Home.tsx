@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import divider from '../../pics/divider.png'
@@ -8,9 +8,15 @@ gsap.registerPlugin(ScrollTrigger);
 function Home(){
 
     useEffect(() => {
+      gsap.from("#first-alt", {
+          scale: 0,
+          opacity: 0,
+          duration: 2
+      })
+
       gsap.from("#first", {
           x:-400,
-          duration: 1
+          duration: 1.5
       })
 
       gsap.from("#second", {
@@ -163,12 +169,12 @@ function Home(){
 
     return(
         <div className="h-[5000px]">
-            <section id="first" className="flex flex-col justify-center relative">
-                <div className="w-4/12 h-64 top-28 inset-2/4 relative">
+            <section className="flex flex-col justify-center relative">
+                <div id='first' className="w-4/12 h-64 top-28 inset-2/4 relative">
                     <h1 className="font-medium text-[3.5vw] text-white leading-tight">Beautiful & Unquestionably Gorgeous. Flowers & Foliage locally sourced for your next event.</h1>
                 </div>
                 {/**Image placement holder */}
-                <div className="w-[45vw] h-[72vh] relative -top-40 border-4 border-white" />
+                <div id='first-alt' className="w-[45vw] h-[72vh] relative -top-56 border-4 border-white" />
             </section>
 
             <section id="second" className="flex flex-col items-center -top-[15vh] relative">
@@ -285,8 +291,8 @@ function Home(){
                 <div className="border-white relative border-2 h-1 w-40"></div>
             </section> 
 
-            <footer id="fourteenth" className="relative top-[250vh]">
-                <div className="border-2 border-white absolute right-0 bottom-0 h-[80vh] w-[55vw]"></div>
+            <footer id="contact" className="relative top-[250vh]">
+                <div className="border-2 border-white absolute right-0 bottom-0 h-[80vh] w-[55vw] z-0"></div>
                 <div className="pl-[6vw] bottom-[40vh] relative">
                     <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Ask Us Anything</h1><br></br>
                     <h3 className="font-normal text-[1.8vw] text-white leading-tight w-[40vw]">Our team of floral advisors are ready to help. They will advise you on the variety of flowers & foliage, type, size, shape, colour, texture, and price, to find the floral options that best suit your style & vision.</h3>
@@ -296,7 +302,7 @@ function Home(){
                         </div>
                     </a>
                 </div>
-                <div className="flex flex-row pl-[6vw] items-center space-x-[2vw]">
+                <div className="flex flex-row pl-[6vw] items-center space-x-[2vw] z-50">
                     <h3 className="font-normal text-[2vw] text-white leading-tight">317-784-1614</h3>
                     <div className="rounded-full relative h-[2vh] w-[1vw] bg-white"></div>
                     <h3 className="font-normal text-[2vw] text-white leading-tight w-[50vw]">2636 East St Indianapolis, IN 46225</h3>
