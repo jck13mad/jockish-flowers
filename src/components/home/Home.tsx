@@ -181,7 +181,7 @@ function Home(){
                 <div className="w-[24vw] h-32 relative">
                     <h3 className="font-normal text-[1.3vw] text-white leading-tight text-center">Access our extraordinary collection of flowers, with step-by-step guidance at every stage. <br></br><br></br>Explore flowers that transform your creative design into a <b>floral masterpiece.</b></h3>
                 </div>
-                <a href="/shop">
+                <a href="/services">
                     <div className="top-20 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
                       <h3 className="text-[#0c331f] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
                     </div>
@@ -210,7 +210,7 @@ function Home(){
             <section id="sixth" className="top-[15vh] relative flex flex-col items-center">
                 <h3 className="font-normal text-[1.3vw] text-white leading-tight text-center">An endless variety of flowers & foliage.</h3><br></br><br></br>
                 <h3 className="font-normal text-[1.3vw] text-white leading-tight text-center w-[30vw]">‍Choose an assortment for your event, or pick a single stem and witness the beauty of a venue or dinner table come alive.</h3>
-                <a href="/shop">
+                <a href="/services">
                     <div className="top-12 bg-white relative w-[15vw] h-16 rounded-[3rem] hover:bg-opacity-0 hover:border-2 hover:border-white group transition ease-out duration-700 hover:cursor-pointer">
                         <h3 className="text-[#0c331f] font-medium text-center relative top-1/2 -translate-y-1/2 group-hover:text-white transition ease-out duration-700">Browse Collection</h3>
                     </div>

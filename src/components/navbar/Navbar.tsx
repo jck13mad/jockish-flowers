@@ -34,8 +34,8 @@ function Navbar(){
 
                         {/*Services*/}
                         <li className="2xs:pl-64 xs:ml-20 sm:pl-96 sm:ml-32 md:pl-0 md:ml-0  group flex flex-col relative">
-                            <a href="/shop" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">Services</a>
-                            <a href="/shop" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img className="-rotate-45" alt="flower" src={flower} /></a>
+                            <a href="/services" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-medium self-center">Services</a>
+                            <a href="/services" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img className="-rotate-45" alt="flower" src={flower} /></a>
                         </li>
 
                         {/*Contact Us*/}
