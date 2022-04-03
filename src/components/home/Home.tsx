@@ -106,31 +106,73 @@ function Home(){
           scrollTrigger: {
             trigger: "#ninth",
             start: "-400px 80%",
-            end: "-80% 30%",
+            end: "-90% 30%",
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
           yPercent: 100,
           opacity: 0.4
         });
+
+        gsap.from(".ninth-alt", {
+          scrollTrigger: {
+            trigger: "#ninth",
+            start: "-400px 80%",
+            scrub: 1,
+            toggleActions: "restart pause reverse pause"
+          },
+          xPercent: 100,
+          opacity: 0.2,
+          duration: 1
+        })
+
+        ScrollTrigger.create({
+          trigger: "#ninth",
+          start: "-400px 25%",
+          end: "100% 25%",
+          markers: true,
+          pin: true,
+          scrub: 0.6
+        })
 
         gsap.from("#tenth", {
           scrollTrigger: {
             trigger: "#tenth",
             start: "-150px 80%",
-            end: "-40% 30%",
+            end: "-50% 30%",
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
           yPercent: 100,
           opacity: 0.4
         });
+
+        gsap.from(".tenth-alt", {
+          scrollTrigger: {
+            trigger: "#tenth",
+            start: "-150px 80%",
+            scrub: 1,
+            toggleActions: "restart pause reverse pause"
+          },
+          xPercent: 100,
+          opacity: 0.2,
+          duration: 1
+        })
+
+        ScrollTrigger.create({
+          trigger: "#tenth",
+          start: "-400px 25%",
+          end: "100% 20%",
+          markers: true,
+          pin: true,
+          scrub: 0.6
+        })
 
         gsap.from("#eleventh", {
           scrollTrigger: {
             trigger: "#eleventh",
             start: "-150px 80%",
-            end: "-40% 30%",
+            end: "-50% 30%",
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
@@ -138,17 +180,59 @@ function Home(){
           opacity: 0.4
         });
 
+        gsap.from(".eleventh-alt", {
+          scrollTrigger: {
+            trigger: "#eleventh",
+            start: "-150px 80%",
+            scrub: 1,
+            toggleActions: "restart pause reverse pause"
+          },
+          xPercent: 100,
+          opacity: 0.2,
+          duration: 1
+        })
+
+        ScrollTrigger.create({
+          trigger: "#eleventh",
+          start: "-400px 25%",
+          end: "100% 20%",
+          markers: true,
+          pin: true,
+          scrub: 0.6
+        })
+
         gsap.from("#twelfth", {
           scrollTrigger: {
             trigger: "#twelfth",
             start: "-150px 80%",
-            end: "-40% 30%",
+            end: "-50% 30%",
             scrub: 1,
             toggleActions: "restart pause reverse pause"
           },
           yPercent: 100,
           opacity: 0.4
         });
+
+        gsap.from(".twelfth-alt", {
+          scrollTrigger: {
+            trigger: "#twelfth",
+            start: "-150px 80%",
+            scrub: 1,
+            toggleActions: "restart pause reverse pause"
+          },
+          xPercent: 100,
+          opacity: 0.2,
+          duration: 1
+        })
+
+        ScrollTrigger.create({
+          trigger: "#twelfth",
+          start: "-400px 25%",
+          end: "100% 20%",
+          markers: true,
+          pin: true,
+          scrub: 0.6
+        })
 
         gsap.from("#thirteenth", {
           scrollTrigger: {
@@ -168,7 +252,7 @@ function Home(){
     ScrollTrigger.refresh()
 
     return(
-        <div className="h-[5000px]">
+        <div className="h-[10000px]">
             <section className="flex flex-col justify-center relative">
                 <div id='first' className="w-4/12 h-64 top-28 inset-2/4 relative">
                     <h1 className="font-medium text-[3.5vw] text-white leading-tight">Beautiful & Unquestionably Gorgeous. Flowers & Foliage locally sourced for your next event.</h1>
@@ -234,12 +318,12 @@ function Home(){
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Arrangements</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 {/**Image placement holder */}
-                <div className="relative flex flex-row top-[5vh] opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-700">
-                  <div className="border-2 border-white h-[40vh] w-[25vw] -rotate-12 z-1 top-[6vh] relative"></div>
+                <div className="ninth-alt -left-[6vw] relative flex flex-row top-[5vh] items-center space-x-[3vw] justify-center">
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] z-5"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] rotate-12 z-1 top-[6vh] relative"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                 </div>
             </section>
 
@@ -248,12 +332,12 @@ function Home(){
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Stonework</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 {/**Image placement holder */}
-                <div className="relative flex flex-row top-[5vh] opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-700">
-                  <div className="border-2 border-white h-[40vh] w-[25vw] -rotate-12 z-1 top-[6vh] relative"></div>
+                <div className=" tenth-alt -left-[6vw] relative flex flex-row top-[5vh] items-center space-x-[3vw] justify-center">
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] z-5"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] rotate-12 z-1 top-[6vh] relative"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                 </div>
             </section>
 
@@ -262,12 +346,12 @@ function Home(){
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Accents</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 {/**Image placement holder */}
-                <div className="relative flex flex-row top-[5vh] opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-700">
-                  <div className="border-2 border-white h-[40vh] w-[25vw] -rotate-12 z-1 top-[6vh] relative"></div>
+                <div className="eleventh-alt -left-[6vw] relative flex flex-row top-[5vh] items-center space-x-[3vw] justify-center">
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] z-5"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] rotate-12 z-1 top-[6vh] relative"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                 </div>
             </section>
 
@@ -276,12 +360,12 @@ function Home(){
                 <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Afghans</h1>
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 {/**Image placement holder */}
-                <div className="relative flex flex-row top-[5vh] opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-700">
-                  <div className="border-2 border-white h-[40vh] w-[25vw] -rotate-12 z-1 top-[6vh] relative"></div>
+                <div className="twelfth-alt -left-[6vw] relative flex flex-row top-[5vh] items-center space-x-[3vw] justify-center">
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] z-5"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                   {/**Image placement holder */}
-                  <div className="border-2 border-white h-[40vh] w-[25vw] rotate-12 z-1 top-[6vh] relative"></div>
+                  <div className="border-2 border-white h-[40vh] w-[25vw] top-[6vh] relative"></div>
                 </div>
             </section>
 
@@ -291,9 +375,9 @@ function Home(){
                 <div className="border-white relative border-2 h-1 w-40"></div>
             </section> 
 
-            <footer id="contact" className="relative top-[250vh]">
+            <footer id="contact" className="relative top-[260vh]">
                 <div className="border-2 border-white absolute right-0 bottom-0 h-[80vh] w-[55vw] z-0"></div>
-                <div className="pl-[6vw] bottom-[40vh] relative">
+                <div className="pl-[6vw] bottom-[30vh] relative">
                     <h1 className="font-medium text-[3vw] text-white leading-tight w-1/2">Ask Us Anything</h1><br></br>
                     <h3 className="font-normal text-[1.8vw] text-white leading-tight w-[40vw]">Our team of floral advisors are ready to help. They will advise you on the variety of flowers & foliage, type, size, shape, colour, texture, and price, to find the floral options that best suit your style & vision.</h3>
                     <a href="/contact">

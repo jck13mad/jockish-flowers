@@ -30,7 +30,7 @@ function App() {
           <Route path="/services/stonework" element={<Services flowers={data[5]} />}></Route>
           <Route path="/services/stonework/statues" element={<Services flowers={data[6]} />}></Route>
           <Route path="/services/stonework/benches" element={<Services flowers={data[7]} />}></Route>
-          <Route path="/services/plaques" element={<Services flowers={data[8]} />}></Route>
+          <Route path="/services/stonework/plaques" element={<Services flowers={data[8]} />}></Route>
 
           <Route path="/services/accents" element={<Services flowers={data[9]} />}></Route>
           <Route path="/services/afgans" element={<Services flowers={data[10]} />}></Route>
