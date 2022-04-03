@@ -43,11 +43,6 @@ function Navbar(){
                             <a href="/#contact" className="text-[1.25vw] 3xs:text-base block py-2 pr-4 pl-3 text-white hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-medium self-center">Contact Us</a>
                             <a href="/#contact" className="opacity-0 w-7 h-5 self-center md:group-hover:opacity-100 transition ease-in-out duration-700"><img className="-rotate-45" alt="flower" src={flower} /></a>
                         </li>
-
-                        {/*image for light/dark*/}
-                        {/*<li className="invisible md:visible">
-                            <a href='#'><img className="w-8 h-8" alt="light mode" src={sun} /></a>
-                        </li>*/}
                     </ul>
                 </div>
             </div>

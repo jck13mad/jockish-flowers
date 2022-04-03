@@ -130,7 +130,6 @@ function Home(){
           trigger: "#ninth",
           start: "-400px 25%",
           end: "100% 25%",
-          markers: true,
           pin: true,
           scrub: 0.6
         })
@@ -163,7 +162,6 @@ function Home(){
           trigger: "#tenth",
           start: "-400px 25%",
           end: "100% 20%",
-          markers: true,
           pin: true,
           scrub: 0.6
         })
@@ -196,7 +194,6 @@ function Home(){
           trigger: "#eleventh",
           start: "-400px 25%",
           end: "100% 20%",
-          markers: true,
           pin: true,
           scrub: 0.6
         })
@@ -229,7 +226,6 @@ function Home(){
           trigger: "#twelfth",
           start: "-400px 25%",
           end: "100% 20%",
-          markers: true,
           pin: true,
           scrub: 0.6
         })
@@ -369,7 +365,7 @@ function Home(){
                 </div>
             </section>
 
-            <section id="thirteenth" className="relative w-full h-[20vh] flex flex-row items-center space-x-[6vw] justify-center top-[160vh]">
+            <section id="thirteenth" className="relative w-full h-[20vh] flex flex-row items-center space-x-[6vw] justify-center top-[180vh]">
                 <div className="border-white relative border-2 h-1 w-40"></div>
                 <img src={divider} alt="flower icon" className="relative h-28 w-auto"/>
                 <div className="border-white relative border-2 h-1 w-40"></div>
